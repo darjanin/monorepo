@@ -3,12 +3,10 @@
   "version": 2,
   "builds": [
     {
-      "src": "app/package.json",
-      "use": "@now/next"
+      "src": "app/package.json"
     },
     {
-      "src": "web/package.json",
-      "use": "@now/next"
+      "src": "web/package.json"
     }
   ],
   "routes": [
